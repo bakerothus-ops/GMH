@@ -1,1 +1,1 @@
-SET /p %cmd%=
+SET /p cmd=
