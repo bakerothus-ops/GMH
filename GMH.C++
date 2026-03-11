@@ -12,8 +12,7 @@ int main() {
  int x 10, y 10;
 
  if (g == 'S' || g == 's')
- {
-  cout<<)<<endl;
+
   cin>>x>>y;
   SetCursorPos(x, y);
  }
