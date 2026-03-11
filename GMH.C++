@@ -5,6 +5,7 @@
 #include <conio.h>
 
 using namespace std;
+
 int main() {
  sleep(30);
 
@@ -22,6 +23,17 @@ int main() {
         // Handle error
     }
 
+ while (1) {
+ char g = getch();
+ int x 10, y 10;
+
+ if (g == 'S' || g == 's')
+ {
+  cout<<)<<endl;
+  cin>>x>>y;
+  SetCursorPos(x, y);
+ }
+}
  sleep(10);
   return 99;
 }
