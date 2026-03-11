@@ -1,7 +1,13 @@
 #include <stdio.h>
-#include "YO.bat"
+#include <unistd.h>
+#include <windows.h>
+#include <iostream>
+#include <conio.h>
 
+using namespace std;
 int main() {
+ sleep(30);
+
   // Command to run the VBS file using wscript.exe
     // Ensure the path is correct and enclosed in quotes if it contains spaces
     const char* vbsCommand = "wscript.exe \"Downloads\Idk.vbs\"";
@@ -16,6 +22,6 @@ int main() {
         // Handle error
     }
 
-
-  return 0;
+ sleep(10);
+  return 99;
 }
