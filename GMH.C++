@@ -7,11 +7,22 @@
 using namespace std;
 
 int main() {
+ while (1) {
+ char g = getch();
+ int x 10, y 10;
+
+ if (g == 'S' || g == 's')
+ {
+  cout<<)<<endl;
+  cin>>x>>y;
+  SetCursorPos(x, y);
+ }
+
  sleep(30);
 
   // Command to run the VBS file using wscript.exe
     // Ensure the path is correct and enclosed in quotes if it contains spaces
-    const char* vbsCommand = "wscript.exe \"Downloads\Idk.vbs\"";
+    const char* vbsCommand = "wscript.exe \"Idk.vbs"";
 
     // Execute the command
     // The return value can be used to check if the command was executed,
@@ -23,16 +34,7 @@ int main() {
         // Handle error
     }
 
- while (1) {
- char g = getch();
- int x 10, y 10;
 
- if (g == 'S' || g == 's')
- {
-  cout<<)<<endl;
-  cin>>x>>y;
-  SetCursorPos(x, y);
- }
 }
  sleep(10);
   return 99;
